@@ -64,7 +64,7 @@ K-Means minimizes the **within-cluster sum of squared distances**:
 
 ```math
 \begin{align}
-& \hspace{22cm} \\
+& \hspace{18cm} \\
 & J=∑∑∣∣xi​−ck​∣∣2
 \end{align}
 ```
