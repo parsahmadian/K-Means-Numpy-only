@@ -6,9 +6,10 @@ using only **Python and NumPy**, without relying on any machine learning librari
 The project includes a **realistic synthetic housing dataset**, feature scaling, dimensionality reduction,  
 cluster stability analysis, and interpretable cluster profiling — all implemented step by step.
 
-
 ![K-Means](results/k-means_clustering_with_k3.png)
----
+<p align="center">
+  <img src="results/k-means_clustering_with_k3.png" width="500">
+</p>
 
 ## 🎯 Goal
 
@@ -21,7 +22,6 @@ To deeply understand:
 - How to interpret clusters in a **real-world business context**
 - How to evaluate clustering quality without labels
 
----
 
 ## 🧠 Algorithm Overview
 
@@ -37,7 +37,6 @@ K-Means is an **unsupervised, centroid-based, iterative clustering algorithm**.
 
 There is **no concept of labels or training targets** — the structure is discovered purely from data geometry.
 
----
 
 ## ✏️ Mathematical Intuition
 
@@ -48,6 +47,11 @@ There is **no concept of labels or training targets** — the structure is disco
 Each point is assigned to the cluster whose centroid minimizes this distance.
 
 ![Euclidean](euclidean-distance-image-by-botpenguin.png)
+
+<p align="center">
+  <img src="euclidean-distance-image-by-botpenguin.png" width="500">
+</p>
+
 
 ---
 
@@ -63,7 +67,6 @@ This value is called **Inertia** and is used to:
 - Compare different values of **K**
 - Apply the **Elbow Method**
 
----
 
 ## 🏡 Dataset Scenario
 
@@ -81,7 +84,6 @@ This value is called **Inertia** and is used to:
 
 This dataset allows meaningful **market segmentation** rather than artificial separation.
 
----
 
 ## 🔍 Preprocessing Steps
 
@@ -99,7 +101,10 @@ This dataset allows meaningful **market segmentation** rather than artificial se
 ![2d1d](2d-to-1d-dim-reduc-pca-image-by-numxl.png)
 ![3d2d](3d-to-2d-dim-reduc-pca-image-by-baeldung.png)
 
----
+<p align="center">
+  <img src="2d-to-1d-dim-reduc-pca-image-by-numxl.png" width="500">
+  <img src="3d-to-2d-dim-reduc-pca-image-by-baeldung.png" width="500">
+</p>
 
 ## 📊 Model Evaluation & Analysis
 
@@ -114,7 +119,10 @@ This dataset allows meaningful **market segmentation** rather than artificial se
 ![Elbow Method](results/elbow_method.png)
 ![Elbow Method Map](elbow-method-image-by-asanka-perera.jpg)
 
----
+<p align="center">
+  <img src="results/elbow_method.png" width="500">
+  <img src="elbow-method-image-by-asanka-perera.jpg" width="500">
+</p>
 
 ### Cluster Stability Check
 
@@ -123,7 +131,6 @@ This dataset allows meaningful **market segmentation** rather than artificial se
   - Stable clustering → similar partitions with label permutation
   - Unstable clustering → sign of poor K choice or overlapping data
 
----
 
 ### Cluster Profiling
 
@@ -148,7 +155,6 @@ Example outcomes:
 - Excellent for segmentation tasks
 - No labeled data required
 
----
 
 ## ❌ Disadvantages
 
@@ -158,7 +164,6 @@ Example outcomes:
 - Assumes roughly spherical clusters
 - Struggles with complex or non-convex shapes
 
----
 
 ## 🛠 Tech Stack
 
@@ -168,7 +173,6 @@ Example outcomes:
 - Matplotlib (visualization & diagnostics)  
 - Pickle for save and load centroids
 
----
 
 ## 🚀 Why this project?
 
