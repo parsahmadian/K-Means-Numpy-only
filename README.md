@@ -46,11 +46,6 @@ There is **no concept of labels or training targets** — the structure is disco
 & \hspace{22cm} \\
 & d(x,c)=√(∑(x−c)2)
 \end{align}
-
-```
-
-```math
-d(x,c)=√(∑(x−c)2)
 ```
 
 Each point is assigned to the cluster whose centroid minimizes this distance.
@@ -68,7 +63,10 @@ Each point is assigned to the cluster whose centroid minimizes this distance.
 K-Means minimizes the **within-cluster sum of squared distances**:
 
 ```math
-J=∑∑∣∣xi​−ck​∣∣2
+\begin{align}
+& \hspace{22cm} \\
+& J=∑∑∣∣xi​−ck​∣∣2
+\end{align}
 ```
 
 This value is called **Inertia** and is used to:
