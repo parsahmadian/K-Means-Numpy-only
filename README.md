@@ -44,7 +44,7 @@ There is **no concept of labels or training targets** — the structure is disco
 ```math
 \begin{align}
 & \hspace{18cm} \\
-& d(x,c)=√(∑(x−c)2)
+& J = \sum_{k=1}^{K} \sum_{i \in C_k} \| x_i - c_k \|^2
 \end{align}
 ```
 
