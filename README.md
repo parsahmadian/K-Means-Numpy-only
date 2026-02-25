@@ -7,7 +7,7 @@ The project includes a **realistic synthetic housing dataset**, feature scaling,
 cluster stability analysis, and interpretable cluster profiling — all implemented step by step.
 
 <p align="center">
-  <img src="results/k-means_clustering_with_k3.png" width="1000">
+  <img src="results/k-means_clustering_with_k3.png" width="800">
 </p>
 
 ## 🎯 Goal
@@ -46,7 +46,7 @@ There is **no concept of labels or training targets** — the structure is disco
 Each point is assigned to the cluster whose centroid minimizes this distance.
 
 
-<p align="center">
+<p>
   <img src="euclidean-distance-image-by-botpenguin.png" width="500">
 </p>
 
@@ -96,9 +96,9 @@ This dataset allows meaningful **market segmentation** rather than artificial se
   PCA was applied before clustering to reduce dimensionality and noise.
   While this may affect interpretability, it improves cluster compactness and visualization clarity.
 
-<p align="center">
-  <img src="2d-to-1d-dim-reduc-pca-image-by-numxl.png" width="800">
-  <img src="3d-to-2d-dim-reduc-pca-image-by-baeldung.png" width="800">
+<p>
+  <img src="2d-to-1d-dim-reduc-pca-image-by-numxl.png" width="700">
+  <img src="3d-to-2d-dim-reduc-pca-image-by-baeldung.png" width="700">
 </p>
 
 ## 📊 Model Evaluation & Analysis
@@ -111,9 +111,9 @@ This dataset allows meaningful **market segmentation** rather than artificial se
   - Over-segmentation
   - Under-segmentation
 
-<p align="center">
-  <img src="results/elbow_method.png" width="800">
-  <img src="elbow-method-image-by-asanka-perera.jpg" width="800">
+<p>
+  <img src="results/elbow_method.png" width="600">
+  <img src="elbow-method-image-by-asanka-perera.jpg" width="600">
 </p>
 
 ### Cluster Stability Check
