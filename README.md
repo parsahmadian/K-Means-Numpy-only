@@ -6,9 +6,8 @@ using only **Python and NumPy**, without relying on any machine learning librari
 The project includes a **realistic synthetic housing dataset**, feature scaling, dimensionality reduction,  
 cluster stability analysis, and interpretable cluster profiling — all implemented step by step.
 
-![K-Means](results/k-means_clustering_with_k3.png)
 <p align="center">
-  <img src="results/k-means_clustering_with_k3.png" width="500">
+  <img src="results/k-means_clustering_with_k3.png" width="1000">
 </p>
 
 ## 🎯 Goal
@@ -46,7 +45,6 @@ There is **no concept of labels or training targets** — the structure is disco
 
 Each point is assigned to the cluster whose centroid minimizes this distance.
 
-![Euclidean](euclidean-distance-image-by-botpenguin.png)
 
 <p align="center">
   <img src="euclidean-distance-image-by-botpenguin.png" width="500">
@@ -98,12 +96,9 @@ This dataset allows meaningful **market segmentation** rather than artificial se
   PCA was applied before clustering to reduce dimensionality and noise.
   While this may affect interpretability, it improves cluster compactness and visualization clarity.
 
-![2d1d](2d-to-1d-dim-reduc-pca-image-by-numxl.png)
-![3d2d](3d-to-2d-dim-reduc-pca-image-by-baeldung.png)
-
 <p align="center">
-  <img src="2d-to-1d-dim-reduc-pca-image-by-numxl.png" width="500">
-  <img src="3d-to-2d-dim-reduc-pca-image-by-baeldung.png" width="500">
+  <img src="2d-to-1d-dim-reduc-pca-image-by-numxl.png" width="800">
+  <img src="3d-to-2d-dim-reduc-pca-image-by-baeldung.png" width="800">
 </p>
 
 ## 📊 Model Evaluation & Analysis
@@ -116,12 +111,9 @@ This dataset allows meaningful **market segmentation** rather than artificial se
   - Over-segmentation
   - Under-segmentation
 
-![Elbow Method](results/elbow_method.png)
-![Elbow Method Map](elbow-method-image-by-asanka-perera.jpg)
-
 <p align="center">
-  <img src="results/elbow_method.png" width="500">
-  <img src="elbow-method-image-by-asanka-perera.jpg" width="500">
+  <img src="results/elbow_method.png" width="800">
+  <img src="elbow-method-image-by-asanka-perera.jpg" width="800">
 </p>
 
 ### Cluster Stability Check
