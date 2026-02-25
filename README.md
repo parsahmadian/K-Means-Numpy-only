@@ -6,8 +6,8 @@ using only **Python and NumPy**, without relying on any machine learning librari
 The project includes a **realistic synthetic housing dataset**, feature scaling, dimensionality reduction,  
 cluster stability analysis, and interpretable cluster profiling — all implemented step by step.
 
-<p align="center">
-  <img src="results/k-means_clustering_with_k3.png" width="800">
+<p>
+  <img src="results/k-means_clustering_with_k3.png" width="700">
 </p>
 
 ## 🎯 Goal
@@ -116,6 +116,8 @@ This dataset allows meaningful **market segmentation** rather than artificial se
   <img src="elbow-method-image-by-asanka-perera.jpg" width="600">
 </p>
 
+---
+
 ### Cluster Stability Check
 
 - K-Means is run multiple times with different random initializations
@@ -137,7 +139,6 @@ Example outcomes:
 - Large, modern, central units
 - High-floor, amenity-rich buildings
 
----
 
 ## ✅ Advantages
 
