@@ -41,6 +41,11 @@ There is **no concept of labels or training targets** — the structure is disco
 
 ### Distance Metric (Euclidean)
 
+\begin{align}
+& \hspace{22cm} \\
+& d(x,c)=√(∑(x−c)2)
+\end{align}
+
 ```math
 d(x,c)=√(∑(x−c)2)
 ```
