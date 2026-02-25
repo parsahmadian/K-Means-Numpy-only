@@ -41,7 +41,7 @@ There is **no concept of labels or training targets** — the structure is disco
 
 ### Distance Metric (Euclidean)
 
-`d(x, c) = sqrt(sum((x - c)^2))`
+`d(x,c)=√(∑(x−c)2)`
 
 Each point is assigned to the cluster whose centroid minimizes this distance.
 
