@@ -43,7 +43,7 @@ There is **no concept of labels or training targets** — the structure is disco
 
 ```math
 \begin{align}
-& \hspace{1cm} \\
+& \hspace{18cm} \\
 & d(x,c)=√(∑(x−c)2)
 \end{align}
 ```
