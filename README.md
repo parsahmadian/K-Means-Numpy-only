@@ -41,7 +41,9 @@ There is **no concept of labels or training targets** — the structure is disco
 
 ### Distance Metric (Euclidean)
 
-`d(x,c)=√(∑(x−c)2)`
+```math
+d(x,c)=√(∑(x−c)2)
+```
 
 Each point is assigned to the cluster whose centroid minimizes this distance.
 
@@ -57,7 +59,9 @@ Each point is assigned to the cluster whose centroid minimizes this distance.
 
 K-Means minimizes the **within-cluster sum of squared distances**:
 
-`J = sum(||x_i - c_k||^2)`
+```math
+J=∑∑∣∣xi​−ck​∣∣2
+```
 
 This value is called **Inertia** and is used to:
 
