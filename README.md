@@ -44,7 +44,7 @@ There is **no concept of labels or training targets** — the structure is disco
 ```math
 \begin{align}
 & \hspace{18cm} \\
-& J = \sum_{k=1}^{K} \sum_{i \in C_k} \| x_i - c_k \|^2
+& \| x_i - c_k \|^2 = \sum_{j=1}^{d} (x_{ij} - c_{kj})^2
 \end{align}
 ```
 
@@ -65,7 +65,7 @@ K-Means minimizes the **within-cluster sum of squared distances**:
 ```math
 \begin{align}
 & \hspace{18cm} \\
-& J=∑∑∣∣xi​−ck​∣∣2
+& J = \sum_{k=1}^{K} \sum_{i \in C_k} \| x_i - c_k \|^2
 \end{align}
 ```
 
